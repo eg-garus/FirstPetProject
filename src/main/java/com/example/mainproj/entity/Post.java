@@ -1,11 +1,11 @@
 package com.example.mainproj.entity;
 
-import jakarta.persistence.*;
 import lombok.Data;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
+
+import jakarta.persistence.*;
 
 @Data
 @Entity

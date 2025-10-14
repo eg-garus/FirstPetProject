@@ -2,13 +2,13 @@ package com.example.mainproj.entity;
 
 import com.example.mainproj.entity.enums.ERole;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.GrantedAuthoritiesContainer;
 
 import java.time.LocalDateTime;
 import java.util.*;
+
+import jakarta.persistence.*;
 
 @Data
 @Entity
